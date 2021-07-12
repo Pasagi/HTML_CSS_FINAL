@@ -136,6 +136,7 @@ table {
   width: 1000px;
   padding: 30px;
   background: rgba(0,0,0,0.2);
+  box-sizing: border-box;
   /*border: 1px solid black;*/
 }
 
@@ -167,8 +168,13 @@ table {
 }
 
 .content  ul{
-    padding-left: 20px;
+    padding-left: 40px;
 }
+
+.content li{
+	list-style:disc;
+}
+
 .compair{
   font-family: Microsoft JhengHei;
   /*border: 1px solid green;*/
@@ -254,7 +260,6 @@ table {
   color: white;
   font-weight: bold;
   cursor: pointer;
-  align-items: flex-end;
   align-self: flex-end;
 }
 
@@ -280,6 +285,10 @@ table {
   margin-bottom: 5px;
 }
 
-.footer li span{
+.footer li a{
   color: 	#FF0080;
+}
+
+.footer a:hover{
+	color: blue;
 }
